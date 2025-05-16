@@ -45,29 +45,41 @@ Stable Diffusion是一種圖像生成技術，使用者只需輸入一句話，�
 4. 設定伺服器的機型
     * 我是選用最便宜的方案->共用核心的 e2-small (0.5至2個 vCPU，2 GB記憶體)
 5. 裝虛擬環境 venv(由於Google Cloud Platform不能直接 pip install)
-    `python3 -m venv dcbot`
-6. 裝程式需要的函式庫
-    `pip install discord.py python-dotenv diffusers torch openai
-`
-7. 還需要裝 tmux(避免中斷SSH連線，機器人也跟著離線)
-    `sudo apt install tmux`
-8. 啟動 tmux及 venv虛擬環境
+    ```
+    python3 -m venv dcbot
+   ```
+7. 裝程式需要的函式庫
+    ```
+   pip install discord.py python-dotenv diffusers torch openai
+    ```
+
+8. 還需要裝 tmux(避免中斷SSH連線，機器人也跟著離線)
+    ```
+   sudo apt install tmux
+    ```
+10. 啟動 tmux及 venv虛擬環境
     ```
     tmux
     source dcbot/bin/activate
     ```
-9. 把下載的程式上傳至雲端
-10. 執行 shell檔移動程式到他該去的地方
+11. 把下載的程式上傳至雲端
+12. 執行 shell檔移動程式到他該去的地方
     ```
     chmod +x move.sh
     sh move.sh
     ```
-11. cd進 (bot.py所在的資料夾)
-    `cd dcBot`
-12. 執行bot.py即可
-    `python bot.py`
-13. 若中斷ssh回來，想回到虛擬環境
-    `tmux attach`
+13. cd進 (bot.py所在的資料夾)
+    ```
+    cd dcBot
+    ```
+15. 執行bot.py即可
+    ```
+    python bot.py
+    ```
+17. 若中斷ssh回來，想回到虛擬環境
+    ```
+    tmux attach
+    ```
 
 ## 參考資料
 [Python Discord Bot 基礎教學](https://hackmd.io/@smallshawn95/python_discord_bot_base)
