@@ -6,7 +6,8 @@ Discord API+ Google Cloud + Groq + Stable Diffusion
 
 ## 機器人載點(github)
 https://github.com/sam9092/discord-bot_addAI
-
+## 說明文件
+https://hackmd.io/@zhi-xiang/B1Xq4sEbgl
 ## 製作動機
 在日常生活中，我們經常會在 LINE 或 Discord 等平台上看到許多有趣又實用的社群機器人，而這樣的互動形式深深吸引了我。
 所以身為一位資工人的我，雖然過去沒有撰寫過社群機器人的經驗，但讓我產生了嘗試開發社群機器人的想法。
