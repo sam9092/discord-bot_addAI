@@ -1,6 +1,7 @@
 # 生成式AI結合discord bot
 Discord API+ Google Cloud + Groq + Stable Diffusion
 
+(如果有空白檔是正常的，因為是私人伺服器的內容，所以移除)
 ## 作者
 翱翔 ao xiang
 
