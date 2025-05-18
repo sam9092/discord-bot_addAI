@@ -15,6 +15,7 @@ class Event(commands.Cog):
             "➤ `/指令列表` - 顯示這個說明列表\n"
             "➤ `/直播處` - 生成式AI課程直播連結\n"
             "➤ `/ai <Prompt>` - 讓 AI 回復文字訊息\n"
+            "➤ `/生圖 <Prompt>` - 讓 AI 透過文字生成圖片\n"
             "➤ `/選擇 <人生難題> <選項1> <選項2>` - 隨機選擇一個選項\n"
         )
         await ctx.send(help_text)
